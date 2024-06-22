@@ -228,6 +228,7 @@ main (int argc, char const *argv[])
 
           else if (!strcmp (s, "--wasd"))
             {
+              keyShift = 'W';
               keyLeft = 'A';
               keyRight = 'D';
               keyDown = 'S';
